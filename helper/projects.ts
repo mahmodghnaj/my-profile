@@ -44,6 +44,13 @@ export const projects: projectsType[] = [
         )} years`,
       },
       {
+        srcImage: "/tech/react.svg",
+        title: "React",
+        disc: `In use since: 2021, over ${getYearsSinceDate(
+          new Date("2021")
+        )} years`,
+      },
+      {
         srcImage: "/tech/tailwind.svg",
         title: "Tailwind",
         disc: `In use since: 2021, over ${getYearsSinceDate(
