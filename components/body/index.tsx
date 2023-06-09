@@ -5,6 +5,7 @@ import EndSection from "./components/end-section";
 import Experience from "./components/experience";
 import InfoPersonal from "./components/info-personal";
 import Skills from "./components/skills";
+import Projects from "./components/projects";
 
 About;
 const Body = () => {
@@ -27,6 +28,7 @@ const Body = () => {
         <About />
         <Skills />
         <Experience />
+        <Projects />
         <Education />
         <EndSection />
       </div>
