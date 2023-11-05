@@ -104,7 +104,7 @@ const Education = () => {
                   </time>
 
                   <h3 className="text-2xl flex items-baseline mb-1 leading-tight font-semibold">
-                    Information Technology
+                    Computer Software Engineering
                   </h3>
                   <div className="leading-tight text-lg text-neutral-500">
                     Al-Baath University

@@ -69,23 +69,9 @@ const Experience = () => {
                         {item.position}
                       </div>
                       {item.location && (
-                        <div className="leading-tight text-lg text-neutral-500">
+                        <div className="leading-tight text-lg mb-2 text-neutral-500">
                           {item.location}
                         </div>
-                      )}
-                      <div className="mb-3 "></div>
-                      {item.titleDesc && (
-                        <div className="text-lg  flex items-baseline mb-1 leading-tight font-semibold">
-                          {item.titleDesc}
-                        </div>
-                      )}
-                      {item.nestedProject && (
-                        <div className="mb-1 text-md">
-                          See more tech project in the timeline below.
-                        </div>
-                      )}
-                      {item.nestedProject && (
-                        <NestedProject nestedProject={item.nestedProject} />
                       )}
                       {item.desc && (
                         <ol className={styles.bullets}>
@@ -94,6 +80,23 @@ const Experience = () => {
                           ))}
                         </ol>
                       )}
+                      <div className="mb-3 "></div>
+                      {item.titleDesc && (
+                        <div className="text-lg  flex items-baseline mb-1 leading-tight font-semibold">
+                          {item.titleDesc}
+                        </div>
+                      )}
+                      {item.nestedProject && (
+                        <div className="mb-2 text-md">
+                          See more tech project in the timeline below.
+                        </div>
+                      )}
+                      {item.nestedProject?.map((item) => (
+                        <div key={item.title} className="mb-12">
+                          <NestedProject nestedProject={item} />
+                        </div>
+                      ))}
+
                       <div className="leading-tight text-lg text-neutral-400 mt-6 mb-1">
                         Technologies used:
                       </div>

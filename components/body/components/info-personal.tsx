@@ -8,7 +8,7 @@ const InfoPersonal = () => {
           <span className="block font-bold text-3xl">Mahmod Ghnaj</span>
           <span className="block font-bold text-xl">Software Engineer</span>
           <span className="block font-semibold text-neutral-500 text-lg ">
-            Fullstack · TypeScript · React · Vue · NodeJS
+            Fullstack · TypeScript · NextJs · React · Vue · NodeJS
           </span>
         </h1>
         <div className="text-neutral-500 pt-3 font-semibold flex flex-col items-center text-md">
@@ -64,7 +64,7 @@ const InfoPersonal = () => {
             <div className="w-8 h-8 mb-3 flex items-center justify-center mr-3 relative">
               <a
                 target="_blank"
-                href="https://www.linkedin.com/in/mahmod-ghnaj-74842b210/"
+                href="https://www.linkedin.com/in/mahmod-ghnaj"
               >
                 <Image
                   className="max-w-8 max-h-8  grayscale hover:grayscale-0 tech-hover-effect"

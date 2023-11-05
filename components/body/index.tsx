@@ -15,7 +15,7 @@ const Body = () => {
         <div className="block rounded-full w-56 h-56 sm:w-56 mx-auto transform overflow-hidden mb-8 relative">
           <Image
             priority
-            src="/me.jpg"
+            src="/me.png"
             className="absolute inset-0 rounded-full"
             alt="Mahmod Ghnaj"
             fill
