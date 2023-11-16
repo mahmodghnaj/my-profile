@@ -85,7 +85,7 @@ const Projects = () => {
                           ))}
                         </ol>
                       )}
-                      <div className="leading-tight text-lg text-neutral-400 mt-6 mb-1">
+                      <div className="leading-tight text-lg text-neutral-800 mt-6 mb-1">
                         Technologies used:
                       </div>
                       <div className="flex flex-wrap relative">
