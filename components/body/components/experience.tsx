@@ -14,8 +14,11 @@ const Experience = () => {
           <ol className="relative border-l-4  border-neutral-300 pt-3 -ml-4 lg:-ml-6">
             {experience.map((item, index) => {
               return (
-                <div key={index}>
-                  <li className="lg:hidden pl-12 mb-3 -ml-[20px] md:ml-0">
+                <>
+                  <li
+                    key={index}
+                    className="lg:hidden pl-12 mb-3 -ml-[20px] md:ml-0"
+                  >
                     <Image
                       src={item.scrImage}
                       className="mix-blend-multiply max-w-[120px] max-h-[80px]"
@@ -25,7 +28,10 @@ const Experience = () => {
                       height={80}
                     />
                   </li>
-                  <li className="pt-1 lg:pt-0  ml-12 relative text-neutral-90 break-inside-avoid mb-12 lg:mb-16">
+                  <li
+                    key={index}
+                    className="pt-1 lg:pt-0  ml-12 relative text-neutral-90 break-inside-avoid mb-12 lg:mb-16"
+                  >
                     <span className="flex absolute -left-[60px] top-[25px] lg:top-[23px] justify-center items-center w-5 h-5 bg-white rounded-full border-4 border-ccprimary"></span>
                     <div className="mb-4 lg:mb-0 -ml-[20px] md:ml-0 lg:absolute lg:-left-[305px] lg:pr-4 lg:w-56  lg:items-end lg:flex-col lg:h-16 lg:justify-center hidden lg:flex">
                       <Image
@@ -127,7 +133,7 @@ const Experience = () => {
                       </div>
                     </div>
                   </li>
-                </div>
+                </>
               );
             })}
           </ol>
