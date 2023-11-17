@@ -75,8 +75,19 @@ const Education = () => {
         </h2>
         <div className="pl-8">
           <ol className="relative border-l-4  border-neutral-300 pt-3 -ml-4 lg:-ml-6">
-            <div>
-              <li className="lg:hidden pl-12 mb-3 -ml-[20px] md:ml-0">
+            <li className="lg:hidden pl-12 mb-3 -ml-[20px] md:ml-0">
+              <Image
+                src="/company/images.jpeg"
+                className="mix-blend-multiply max-w-[120px] max-h-[80px]"
+                alt=".."
+                loading="lazy"
+                width={90}
+                height={80}
+              />
+            </li>
+            <li className="pt-1 lg:pt-0  ml-12 relative text-neutral-90 break-inside-avoid mb-12 lg:mb-16">
+              <span className="flex absolute -left-[60px] top-[25px] lg:top-[23px] justify-center items-center w-5 h-5 bg-white rounded-full border-4 border-ccprimary"></span>
+              <div className="mb-4 lg:mb-0 -ml-[20px] md:ml-0 lg:absolute lg:-left-[305px] lg:pr-4 lg:w-56  lg:items-end lg:flex-col lg:h-16 lg:justify-center hidden lg:flex">
                 <Image
                   src="/company/images.jpeg"
                   className="mix-blend-multiply max-w-[120px] max-h-[80px]"
@@ -85,67 +96,54 @@ const Education = () => {
                   width={90}
                   height={80}
                 />
-              </li>
-              <li className="pt-1 lg:pt-0  ml-12 relative text-neutral-90 break-inside-avoid mb-12 lg:mb-16">
-                <span className="flex absolute -left-[60px] top-[25px] lg:top-[23px] justify-center items-center w-5 h-5 bg-white rounded-full border-4 border-ccprimary"></span>
-                <div className="mb-4 lg:mb-0 -ml-[20px] md:ml-0 lg:absolute lg:-left-[305px] lg:pr-4 lg:w-56  lg:items-end lg:flex-col lg:h-16 lg:justify-center hidden lg:flex">
-                  <Image
-                    src="/company/images.jpeg"
-                    className="mix-blend-multiply max-w-[120px] max-h-[80px]"
-                    alt=".."
-                    loading="lazy"
-                    width={90}
-                    height={80}
-                  />
+              </div>
+              <div className="-ml-[20px] md:ml-0 ">
+                <time className="block text-sm font-normal leading-tight">
+                  <span className="">01/2016 – 01/2020 · about 4 years</span>
+                </time>
+
+                <h3 className="text-2xl flex items-baseline mb-1 leading-tight font-semibold">
+                  Computer Software Engineering
+                </h3>
+                <div className="leading-tight text-lg text-neutral-500">
+                  Al-Baath University
                 </div>
-                <div className="-ml-[20px] md:ml-0 ">
-                  <time className="block text-sm font-normal leading-tight">
-                    <span className="">01/2016 – 01/2020 · about 4 years</span>
-                  </time>
+                <div className="mb-3 "></div>
+                <ol className={styles.bullets}>
+                  <li>Specialization: Software Engineering</li>
+                  <li>Thesis: A safe system for electronic voting</li>
+                </ol>
 
-                  <h3 className="text-2xl flex items-baseline mb-1 leading-tight font-semibold">
-                    Computer Software Engineering
-                  </h3>
-                  <div className="leading-tight text-lg text-neutral-500">
-                    Al-Baath University
-                  </div>
-                  <div className="mb-3 "></div>
-                  <ol className={styles.bullets}>
-                    <li>Specialization: Software Engineering</li>
-                    <li>Thesis: A safe system for electronic voting</li>
-                  </ol>
-
-                  <div className="leading-tight text-lg text-neutral-800 mt-6 mb-1">
-                    Technologies used:
-                  </div>
-                  <div className="flex flex-wrap relative">
-                    {skills.map((tool, ind) => (
+                <div className="leading-tight text-lg text-neutral-800 mt-6 mb-1">
+                  Technologies used:
+                </div>
+                <div className="flex flex-wrap relative">
+                  {skills.map((tool, ind) => (
+                    <div
+                      key={ind}
+                      className="w-8 h-8 mb-3 flex items-center justify-center mr-3 md:relative"
+                    >
+                      <Image
+                        className={`max-w-8 max-h-8 peer grayscale hover:grayscale-0  ${tool.classImage}`}
+                        src={tool.srcImage}
+                        alt={tool.title}
+                        loading="lazy"
+                        height={32}
+                        width={32}
+                      />
                       <div
-                        key={ind}
-                        className="w-8 h-8 mb-3 flex items-center justify-center mr-3 md:relative"
+                        role="tooltip"
+                        className="pointer-events-none peer-hover:opacity-90 absolute z-50 transition-opacity duration-150 ease-in -left-[10px] md:-left-[30px]  w-[300px] py-2 px-3 text-sm  font-medium text-white bg-neutral-900 rounded-lg shadow-sm tooltip dark:bg-neutral-700 opacity-0 top-20 md:top-10"
                       >
-                        <Image
-                          className={`max-w-8 max-h-8 peer grayscale hover:grayscale-0  ${tool.classImage}`}
-                          src={tool.srcImage}
-                          alt={tool.title}
-                          loading="lazy"
-                          height={32}
-                          width={32}
-                        />
-                        <div
-                          role="tooltip"
-                          className="pointer-events-none peer-hover:opacity-90 absolute z-50 transition-opacity duration-150 ease-in -left-[10px] md:-left-[30px]  w-[300px] py-2 px-3 text-sm  font-medium text-white bg-neutral-900 rounded-lg shadow-sm tooltip dark:bg-neutral-700 opacity-0 top-20 md:top-10"
-                        >
-                          <div className="text-lg">{tool.title}</div>
-                          <div className="">{tool.disc}</div>
-                          <div className=""></div>
-                        </div>
+                        <div className="text-lg">{tool.title}</div>
+                        <div className="">{tool.disc}</div>
+                        <div className=""></div>
                       </div>
-                    ))}
-                  </div>
+                    </div>
+                  ))}
                 </div>
-              </li>
-            </div>
+              </div>
+            </li>
           </ol>
         </div>
       </div>
