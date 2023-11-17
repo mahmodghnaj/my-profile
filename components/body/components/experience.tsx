@@ -21,11 +21,10 @@ const Experience = () => {
                   >
                     <Image
                       src={item.scrImage}
-                      className="mix-blend-multiply max-w-[128px] max-h-[128px]"
+                      className="mix-blend-multiply "
                       alt={item.title}
                       loading="lazy"
-                      width={128}
-                      height={128}
+                      fill
                     />
                   </li>
                   <li
