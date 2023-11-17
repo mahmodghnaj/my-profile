@@ -83,9 +83,9 @@ const NestedProject = ({ nestedProject }: nestedProjectProps) => {
                   </h3>
                   <ol className={styles.bullets}>
                     {nested.desc.map((d, i) => (
-                      <p className="text-neutral-600" key={i}>
-                        {d}
-                      </p>
+                      <li key={i}>
+                        <p className="text-neutral-600">{d}</p>
+                      </li>
                     ))}
                   </ol>
                 </div>
