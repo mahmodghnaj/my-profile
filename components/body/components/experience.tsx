@@ -21,7 +21,7 @@ const Experience = () => {
                   >
                     <Image
                       src={item.scrImage}
-                      className="mix-blend-multiply max-w-[120px] max-h-[80px]"
+                      className="mix-blend-multiply max-w-[128px] max-h-[128px]"
                       alt={item.title}
                       loading="lazy"
                       width={128}
