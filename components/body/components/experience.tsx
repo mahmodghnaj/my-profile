@@ -24,8 +24,8 @@ const Experience = () => {
                       className="mix-blend-multiply max-w-[120px] max-h-[80px]"
                       alt={item.title}
                       loading="lazy"
-                      width={120}
-                      height={80}
+                      width={128}
+                      height={128}
                     />
                   </li>
                   <li
