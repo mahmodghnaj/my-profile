@@ -4,17 +4,20 @@ interface nestedProjectProps {
   nestedProject: nestedProjectType;
 }
 const NestedProject = ({ nestedProject }: nestedProjectProps) => {
+  const goToLink = (link: string | undefined) => {
+    if (link) {
+      window.open(link, "_blank");
+    }
+  };
   return (
     <>
       <div>
         <h3 className="text-lg flex items-baseline mb-1 leading-tight font-semibold">
           {nestedProject.title}
           {nestedProject.linkProject && (
-            <a
-              href={nestedProject.linkProject}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-ccprimary"
+            <div
+              className="text-ccprimary cursor-pointer"
+              onClick={() => goToLink(nestedProject.linkProject)}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +29,7 @@ const NestedProject = ({ nestedProject }: nestedProjectProps) => {
                 <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path>
                 <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path>
               </svg>
-            </a>
+            </div>
           )}
         </h3>
         <div className="leading-tight text-lg text-neutral-500">
@@ -61,11 +64,9 @@ const NestedProject = ({ nestedProject }: nestedProjectProps) => {
                   >
                     {nested.title}
                     {nested.link && (
-                      <a
-                        href={nested.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-ccprimary"
+                      <div
+                        className="text-ccprimary cursor-pointer"
+                        onClick={() => goToLink(nested.link)}
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +78,7 @@ const NestedProject = ({ nestedProject }: nestedProjectProps) => {
                           <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path>
                           <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path>
                         </svg>
-                      </a>
+                      </div>
                     )}
                   </h3>
                   <ol className={styles.bullets}>
