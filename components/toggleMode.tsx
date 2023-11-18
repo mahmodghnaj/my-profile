@@ -11,6 +11,9 @@ const MyComponent = () => {
       onClick={switchTheme}
       type="button"
       className="dark:text-gray-300 dark:border-gray-300 text-gray-800 border-gray-500 border-[3px] rounded-lg text-sm p-3"
+      aria-label={
+        isDarkTheme ? "Switch to Light Theme" : "Switch to Dark Theme"
+      }
     >
       <svg
         id="theme-toggle-dark-icon"
