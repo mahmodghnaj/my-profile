@@ -1,8 +1,12 @@
+import ToggleMode from "./toggleMode";
+
 export const Header = () => {
   return (
     <>
       <div className="flex justify-between container mx-auto pt-2 md:pt-8 px-4 md:px-6 items-center">
-        <div className="w-32 md:w-40 lg:w-64"></div>
+        <div className="w-32 md:w-40 lg:w-64">
+          <ToggleMode />
+        </div>
         <div className="relative inline-block text-left z-30">
           <div>
             <a href="/files/mahmod-ghnaj.pdf" download={"mahmod-ghnaj"}>

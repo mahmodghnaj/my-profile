@@ -17,11 +17,11 @@ const Experience = () => {
                 <>
                   <li
                     key={index}
-                    className="lg:hidden pl-12 mb-3 -ml-[20px] md:ml-0"
+                    className="lg:hidden dark:hidden pl-12 mb-3 -ml-[20px] md:ml-0"
                   >
                     <Image
                       src={item.scrImage}
-                      className="mix-blend-multiply "
+                      className="mix-blend-multiply"
                       alt={item.title}
                       loading="lazy"
                       fill
@@ -35,7 +35,7 @@ const Experience = () => {
                     <div className="mb-4 lg:mb-0 -ml-[20px] md:ml-0 lg:absolute lg:-left-[305px] lg:pr-4 lg:w-56  lg:items-end lg:flex-col lg:h-16 lg:justify-center hidden lg:flex">
                       <Image
                         src={item.scrImage}
-                        className="mix-blend-multiply max-w-[120px] max-h-[80px]"
+                        className="mix-blend-multiply max-w-[120px] max-h-[80px] dark:hidden"
                         alt={item.title}
                         loading="lazy"
                         width={120}
@@ -102,7 +102,7 @@ const Experience = () => {
                         </div>
                       ))}
 
-                      <div className="leading-tight text-lg text-neutral-800 mt-6 mb-1">
+                      <div className="leading-tight text-lg text-neutral-800 dark:text-slate-300 mt-6 mb-1">
                         Technologies used:
                       </div>
                       <div className="flex flex-wrap relative">

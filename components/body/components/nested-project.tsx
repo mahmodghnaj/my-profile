@@ -32,7 +32,7 @@ const NestedProject = ({ nestedProject }: nestedProjectProps) => {
             </div>
           )}
         </h3>
-        <div className="leading-tight text-lg text-neutral-500">
+        <div className="leading-tight text-lg text-neutral-500 dark:text-slate-400">
           {nestedProject.location}
         </div>
         <div className="mb-2">
@@ -41,7 +41,7 @@ const NestedProject = ({ nestedProject }: nestedProjectProps) => {
           </span>
           &nbsp; {nestedProject.descShort}
         </div>
-        <div className="leading-tight text-lg mb-2 text-neutral-500">
+        <div className="leading-tight text-lg mb-2 text-neutral-500 dark:text-slate-400">
           {nestedProject.tipDesc}
         </div>
         {nestedProject.desc && (
@@ -51,7 +51,7 @@ const NestedProject = ({ nestedProject }: nestedProjectProps) => {
             ))}
           </ol>
         )}
-        <div className="leading-tight text-lg mb-5 mt-2 text-neutral-500">
+        <div className="leading-tight text-lg mb-5 mt-2 text-neutral-500 dark:text-slate-400">
           {nestedProject.descNestedProject}
         </div>
         <div className={styles.timeline}>
@@ -81,10 +81,12 @@ const NestedProject = ({ nestedProject }: nestedProjectProps) => {
                       </div>
                     )}
                   </h3>
-                  <ol className={styles.bullets}>
+                  <ol className="">
                     {nested.desc.map((d, i) => (
                       <li key={i}>
-                        <p className="text-neutral-600">{d}</p>
+                        <p className="text-neutral-600 dark:text-slate-300">
+                          {d}
+                        </p>
                       </li>
                     ))}
                   </ol>

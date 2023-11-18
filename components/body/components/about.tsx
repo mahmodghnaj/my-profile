@@ -6,7 +6,7 @@ const About = () => {
         <h2 className="uppercase font-bold text-ccprimary mb-3 text-xl">
           About
         </h2>
-        <div className="text-md">
+        <div className="text-lg">
           <p>
             Hi! 👋 <br />
             I&#180;m Mahmod, {getYearsSinceDate(new Date("1998/1/25"))}, and a

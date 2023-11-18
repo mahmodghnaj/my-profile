@@ -2,10 +2,10 @@ const EndSection = () => {
   return (
     <>
       <div className="flex items-center flex-col py-32 px-4">
-        <div className="text-2xl text-stone-800 text-center">
+        <div className="text-2xl text-stone-800 dark:text-slate-300 text-center">
           Thanks for scrolling 🤓
         </div>
-        <div className="text-2xl font-semibold text-stone-900 mb-4 text-center">
+        <div className="text-2xl font-semibold text-stone-900 dark:text-slate-400 mb-4 text-center">
           Feel free to say hi!
         </div>
         <div className="text-lg">

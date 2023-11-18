@@ -7,11 +7,11 @@ const InfoPersonal = () => {
         <h1 className="text-center mb-3">
           <span className="block font-bold text-3xl">Mahmod Ghnaj</span>
           <span className="block font-bold text-xl">Software Engineer</span>
-          <span className="block font-semibold text-neutral-500 text-lg ">
+          <span className="block font-semibold text-neutral-500 dark:text-slate-400  text-lg ">
             Fullstack · TypeScript · NextJs · React · Vue · NodeJS
           </span>
         </h1>
-        <div className="text-neutral-500 pt-3 font-semibold flex flex-col items-center text-md">
+        <div className="text-neutral-500 dark:text-slate-400 pt-3 font-semibold flex flex-col items-center text-md">
           <div>
             <a
               className="hover:text-ccprimary"
@@ -52,7 +52,7 @@ const InfoPersonal = () => {
             <div className="w-8 h-8 mb-3 flex items-center justify-center mr-3 relative">
               <a target="_blank" href="https://github.com/mahmodghnaj">
                 <Image
-                  className="max-w-8 max-h-8  grayscale hover:grayscale-0 tech-hover-effect"
+                  className="max-w-8 max-h-8  dark:brightness-200	 grayscale hover:grayscale-0  tech-hover-effect"
                   src="/social/github.svg"
                   alt="github icon"
                   loading="lazy"

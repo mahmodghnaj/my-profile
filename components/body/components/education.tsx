@@ -90,7 +90,7 @@ const Education = () => {
               <div className="mb-4 lg:mb-0 -ml-[20px] md:ml-0 lg:absolute lg:-left-[305px] lg:pr-4 lg:w-56  lg:items-end lg:flex-col lg:h-16 lg:justify-center hidden lg:flex">
                 <Image
                   src="/company/images.jpeg"
-                  className="mix-blend-multiply max-w-[120px] max-h-[80px]"
+                  className="mix-blend-multiply max-w-[120px] max-h-[80px] dark:hidden"
                   alt=".."
                   loading="lazy"
                   width={90}
@@ -105,7 +105,7 @@ const Education = () => {
                 <h3 className="text-2xl flex items-baseline mb-1 leading-tight font-semibold">
                   Computer Software Engineering
                 </h3>
-                <div className="leading-tight text-lg text-neutral-500">
+                <div className="leading-tight text-lg text-neutral-500 dark:text-slate-400">
                   Al-Baath University
                 </div>
                 <div className="mb-3 "></div>
@@ -114,7 +114,7 @@ const Education = () => {
                   <li>Thesis: A safe system for electronic voting</li>
                 </ol>
 
-                <div className="leading-tight text-lg text-neutral-800 mt-6 mb-1">
+                <div className="leading-tight text-lg text-neutral-800 dark:text-slate-300 mt-6 mb-1">
                   Technologies used:
                 </div>
                 <div className="flex flex-wrap relative">

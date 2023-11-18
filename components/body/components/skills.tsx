@@ -90,7 +90,7 @@ const Skills = () => {
                 className="w-8 h-8 mb-3 flex items-center justify-center mr-3 md:relative"
               >
                 <Image
-                  className={`max-w-8 max-h-8 peer grayscale hover:grayscale-0  ${value.classImage}`}
+                  className={`max-w-8 max-h-8 peer grayscale hover:grayscale-0 ${value.classImage}`}
                   src={value.srcImage}
                   alt={value.title}
                   loading="lazy"
