@@ -10,9 +10,10 @@ const About = () => {
           <p>
             Hi! 👋 <br />
             I&#180;m Mahmod, {getYearsSinceDate(new Date("1998/1/25"))}, and a
-            Vue/React/Node/Typescript Fullstack developer. with 3 years of
-            experience, I specialize in developing high-quality, scalable, and
-            efficient web applications that meet business requirements.
+            Vue/React/Node/Typescript Fullstack developer. with{" "}
+            {getYearsSinceDate(new Date("2020/1/1"))} years of experience, I
+            specialize in developing high-quality, scalable, and efficient web
+            applications that meet business requirements.
           </p>
           <p className="mt-4">
             I have a strong proficiency in web development technologies, such as

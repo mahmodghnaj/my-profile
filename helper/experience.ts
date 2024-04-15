@@ -99,6 +99,24 @@ export const experience: experienceType[] = [
         descShort:
           "Global IOT Solutions Platform is a UAE-based platform provider that is committed to leveraging the growth of technology and digitalization through the development of smart AI-based solutions that deliver",
       },
+      {
+        title: "Facilitrol-X",
+        tipDesc: "",
+        desc: [],
+        linkProject: "https://medxsol.com/",
+        location: "United Arab Emirates - Dubai",
+        descShort:
+          "Facilitrol-X is an all-in-one CMMS and CAFM solution designed to streamline your facility management by integrating with IoT data, BMS, and existing systems. Gain complete visibility of your assets, equipment, and maintenance operations, along with real-time IoT insights, all on a single cloud-based platform. Facilitrol-X simplifies the complex, making facility management more efficient, proactive, and data-driven.",
+      },
+      {
+        title: "MEDXSOL",
+        tipDesc: "",
+        desc: [],
+        linkProject: "https://medxsol.com/",
+        location: "",
+        descShort:
+          "The Integrated Medication and Blister Pack Management System represents a sophisticated solution designed to streamline medication management for healthcare facilities, pharmacies, and patients alike. This innovative system combines cutting-edge technology with user-friendly interfaces to ensure accurate medication",
+      },
       ////ABIOT
       {
         title: "ABIOT",
@@ -147,6 +165,30 @@ export const experience: experienceType[] = [
     ],
 
     tools: [
+      {
+        srcImage: "/tech/react.svg",
+        title: "React",
+        disc: `In use since: 2021, over ${getYearsSinceDate(
+          new Date("2021")
+        )} years`,
+      },
+      {
+        srcImage: "/tech/next.svg",
+        classImage:
+          "backdrop-opacity-[0.8] backdrop-invert-[0.8] backdrop-saturate-0 hover:backdrop-invert-0 rounded-full",
+        title: "Next",
+        disc: `In use since: 2022, over ${getYearsSinceDate(
+          new Date("2022")
+        )} years`,
+      },
+      {
+        srcImage: "/tech/tailwind.svg",
+        title: "Tailwind css",
+        disc: `In use since: 2021, over ${getYearsSinceDate(
+          new Date("2021")
+        )} years`,
+      },
+
       {
         srcImage: "/tech/vue.svg",
         title: "Vue",
