@@ -130,21 +130,18 @@ export const experience: experienceType[] = [
         nestedProject: [
           {
             title: "Smart Next",
-            link: "https://abiot.io/global/core/market/main/SmartNext",
             desc: [
               "ABIOT's End To End Solution For Managing Your Fleet Through Real-Time Tracking, Route Optimization, Vehicle, And Driver Management, And Continuous Vehicle Health Monitoring.",
             ],
           },
           {
             title: "Asset Watch",
-            link: "https://abiot.io/global/core/market/main/asset-watch",
             desc: [
               "ABIOT's Solutions For Smart Lock & Asset Tracking Solutions. This State-Of-The-Art Technology Lets You Remotely Monitor, Control And Secure Your Assets From Anywhere In The World. Stay Informed With Real-Time Notifications And Alerts For Greater Visibility.",
             ],
           },
           {
             title: "Facility Booking",
-            link: "https://abiot.io/global/core/market/main/facility-booking",
             desc: [
               "ABIOT's Facility Booking IoT Solution For Efficiently Managing Building Spaces, Track Spaces Workload And Unauthorized Booking Through Optimized Sensors And IoT Platform",
             ],
