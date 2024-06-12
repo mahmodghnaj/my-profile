@@ -103,7 +103,7 @@ export const experience: experienceType[] = [
         title: "Facilitrol-X",
         tipDesc: "",
         desc: [],
-        linkProject: "https://medxsol.com/",
+        linkProject: "https://facilitrol-x.io/",
         location: "United Arab Emirates - Dubai",
         descShort:
           "Facilitrol-X is an all-in-one CMMS and CAFM solution designed to streamline your facility management by integrating with IoT data, BMS, and existing systems. Gain complete visibility of your assets, equipment, and maintenance operations, along with real-time IoT insights, all on a single cloud-based platform. Facilitrol-X simplifies the complex, making facility management more efficient, proactive, and data-driven.",
