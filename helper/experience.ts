@@ -312,10 +312,11 @@ export const experience: experienceType[] = [
     titleDesc: "",
     location: "Dubai, United Arab Emirates",
     desc: [
-      "Led the development of car dealership and real estate management systems, working independently using Laravel, MySQL, and Nuxt.js",
-      "Created dynamic admin dashboards for managing property and vehicle listings, with advanced features like custom fields, validation, and data filtering",
-      "Implemented server-side rendering with Nuxt.js for improved SEO, along with OAuth Sign-in (Facebook, Google, Apple) to enhance user authentication and security",
-      "Integrated efficient data handling with MySQL, ensuring optimal performance and scalability for both platforms",
+      "Architected, designed, and led the development of two platforms for a car dealership and real estate management system. These projects involved dynamic property and vehicle listings with advanced features for admins and end-users",
+      "Developed web applications using Laravel, Nuxt.js, and MySQL to streamline processes, enabling custom fields, data validation, and advanced filtering",
+      "Implemented server-side rendering (SSR) with Nuxt.js to enhance SEO, improving the visibility of both platforms",
+      "Integrated OAuth authentication (Facebook, Google, Apple), ensuring secure and seamless sign-in for users",
+      "Optimized performance and scalability, ensuring efficient data handling and the capacity to manage high volumes of listings across both platforms",
     ],
     nestedProject: [
       {
