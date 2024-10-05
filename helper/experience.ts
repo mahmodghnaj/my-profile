@@ -77,7 +77,7 @@ export const experience: experienceType[] = [
         linkProject: "https://abiot.io/",
         location: "Saudi Arabia - Riyadh",
         descShort:
-          "ABIOT is the Smart Solutions Division at ABM (Arabian Business Machines) Olayan Group. Minimize downtime, reduce costs and drive enterprise-wide operational excellence",
+          "ABIOT is the Leading Saudi IoT Solutions Platform with a drive to constantly develop innovative and effective IoT solutions for multiple use cases and wide range of customer verticals. Our solutions offer scalability and efficiency, revolutionizing connectivity from a single asset level to a city level",
         descNestedProject: "some of the new solutions a worked on:",
         nestedProject: [
           {
@@ -230,6 +230,15 @@ export const experience: experienceType[] = [
         location: "",
         descShort:
           "Global IOT Solutions Platform is a UAE-based platform provider that is committed to leveraging the growth of technology and digitalization through the development of smart AI-based solutions that deliver",
+      },
+      {
+        title: "Cracking IoT Conference",
+        tipDesc: "",
+        desc: [],
+        linkProject: "https://www.crackingiot.com/chapter-3/",
+        location: "",
+        descShort:
+          "The Cracking IoT Conference, touted as the largest event of its kind in the Middle East and North Africa, took place in the UAE in collaboration with Intel Corporation. This prestigious gathering convened 300 C-Suite executives from various industries. Participants had the opportunity to glean insights from more than 40 global leaders in the IoT sphere through keynote addresses, panel discussions, and interactive workshops. The discussions encompassed a wide range of topics, including innovative IoT applications and security challenges",
       },
     ],
     tools: [
