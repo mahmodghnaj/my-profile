@@ -17,7 +17,7 @@ const Experience = () => {
                 <>
                   <li
                     key={index}
-                    className="lg:hidden dark:hidden pl-12 mb-3 -ml-[20px] md:ml-0"
+                    className="lg:hidden dark:hidden pl-12 mb-3 -ml-[20px] md:ml-0 print:hidden"
                   >
                     <Image
                       src={item.scrImage}
@@ -33,7 +33,7 @@ const Experience = () => {
                     className="pt-1 lg:pt-0  ml-12 relative text-neutral-90 break-inside-avoid mb-12 lg:mb-16"
                   >
                     <span className="flex absolute -left-[60px] top-[25px] lg:top-[23px] justify-center items-center w-5 h-5 bg-white rounded-full border-4 border-ccprimary"></span>
-                    <div className="mb-4 lg:mb-0 -ml-[20px] md:ml-0 lg:absolute lg:-left-[305px] lg:pr-4 lg:w-56  lg:items-end lg:flex-col lg:h-16 lg:justify-center hidden lg:flex">
+                    <div className="mb-4 lg:mb-0 -ml-[20px] md:ml-0 lg:absolute lg:-left-[305px] lg:pr-4 lg:w-56  lg:items-end lg:flex-col lg:h-16 lg:justify-center hidden lg:flex print:hidden">
                       <Image
                         src={item.scrImage}
                         className="mix-blend-multiply max-w-[120px] max-h-[80px] dark:hidden"

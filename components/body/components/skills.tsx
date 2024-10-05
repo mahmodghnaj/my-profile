@@ -77,7 +77,7 @@ const skills: typeSkills[] = [
 const Skills = () => {
   return (
     <>
-      <section className="mb-8 max-w-2xl mx-auto px-5">
+      <section className="mb-8 print:mb-1  max-w-2xl mx-auto px-5">
         <h2 className="uppercase font-bold text-ccprimary mb-3 text-xl">
           Skills
         </h2>
@@ -108,7 +108,7 @@ const Skills = () => {
             );
           })}
         </div>
-        <div className="text-md mt-8 md:mt-2">
+        <div className="text-md mt-8 print:mt-2 md:mt-2">
           See more tech experience in the timeline below.
         </div>
       </section>

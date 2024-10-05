@@ -15,7 +15,7 @@ const About = () => {
             specialize in developing high-quality, scalable, and efficient web
             applications that meet business requirements.
           </p>
-          <p className="mt-4">
+          <p className="mt-4 print:mt-1">
             I have a strong proficiency in web development technologies, such as
             HTML, CSS, and JavaScript, as well as experience working with
             popular web development frameworks like React, Next, Vue, Nest. My
@@ -24,12 +24,12 @@ const About = () => {
             troubleshoot issues. With a focus on continuous learning and
             professional development.
           </p>
-          <p className="mt-4">
+          <p className="mt-4 print:mt-1">
             I am proficient in cutting-edge technologies and also understand the
             fundamental principles of earlier days. In-depth knowledge, not just
             tutorials.
           </p>
-          <p className="mt-4">
+          <p className="mt-4 print:mt-1">
             I stay up-to-date with the latest web development trends and
             techniques to ensure that the applications I develop are optimized
             for performance, accessibility, and security. I am dedicated to

@@ -32,7 +32,7 @@ const InfoPersonal = () => {
               </span>
             </a>
           </div>
-          <span className="flex items-center ">
+          <span className="flex items-center print:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -48,7 +48,7 @@ const InfoPersonal = () => {
             </svg>
             Syria
           </span>
-          <div className="mt-2 flex">
+          <div className="mt-2 flex print:hidden">
             <div className="w-8 h-8 mb-3 flex items-center justify-center mr-3 relative">
               <a target="_blank" href="https://github.com/mahmodghnaj">
                 <Image
