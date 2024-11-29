@@ -44,7 +44,7 @@ export const experience: experienceType[] = [
       "Developed a high-performance tracking system managing over 5,000 vehicles with real-time monitoring. Integrated playback functionality, enabling users to review vehicle activity for specific dates, while ensuring optimal system performance",
     ],
     position: "Frontend Engineer",
-    date: `4/2023 - Present over ${getYearsSinceDate(
+    date: `4/2021 - Present over ${getYearsSinceDate(
       new Date("2021"),
       new Date("2025")
     )} years`,
