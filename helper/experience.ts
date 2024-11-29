@@ -45,13 +45,66 @@ export const experience: experienceType[] = [
     ],
     position: "Frontend Engineer",
     date: `4/2023 - Present over ${getYearsSinceDate(
-      new Date("2023"),
+      new Date("2021"),
       new Date("2025")
     )} years`,
     linkProject: "",
     location: "Remote",
     titleDesc: "",
     nestedProject: [
+      {
+        title: "Disrupt-x",
+        location: "United Arab Emirates - Dubai",
+        linkProject: "https://disrupt-x.io/",
+        tipDesc:
+          "offers a scalable platform for IoT and cloud solutions, focusing on vertical-specific applications. Their services cater to sectors like healthcare, energy, and smart cities, providing end-to-end IoT solutions that include sensor integration, real-time data analytics, and AI-driven insights.",
+        desc: [],
+        descNestedProject: "some of the new solutions a worked on:",
+        nestedProject: [
+          {
+            title: "Fleet Management",
+            link: "https://cloud.disrupt-x.io/global/core/market/main/fleet-management",
+            desc: [
+              "IoT Solution For Managing Your Fleet Through Real-Time Tracking, Route Optimization, Vehicle, And Driver Management, And Continuous Vehicle Health Monitoring.",
+            ],
+          },
+          {
+            title: "Metro Locks",
+            link: "https://cloud.disrupt-x.io/global/core/market/main/metro-watch",
+            desc: [
+              "IoT Solution For Securing Your Assets Efficiently. Metro Watch Solution Offers Smart Padlocks, Smart Parking And Tracking Solutions To Secure And Manage Your Assets Using An IoT Cloud Platform And Mobile App.",
+            ],
+          },
+          {
+            title: "Smart Parking",
+            link: "https://cloud.disrupt-x.io/global/core/market/main/urban-ai",
+            desc: [
+              "IoT solutions for efficiently managing parking spaces, tracking parking space utilizations and to prevent unauthorized accesses and overstays through optimized sensors and IoT platform .",
+            ],
+          },
+          {
+            title: "Facility Booking",
+            link: "https://cloud.disrupt-x.io/global/core/market/main/urban-ai",
+            desc: [
+              " IOT solution for efficiently managing building spaces, track spaces workload and unauthorized booking through optimized sensors and IoT platform",
+            ],
+          },
+          {
+            title: "Cloud Orbit",
+            link: "https://cloud.disrupt-x.io/global/core/market/main/rodent",
+            desc: [
+              "Believes In A Greener And Cleaner Environment. To Contribute To This, We Have Developed An End IoT Solution For Community Managers And Municipalities That Will Allow Them To Monitor Waste Fill Levels And Rodent Infestations.",
+            ],
+          },
+          {
+            title: "Cognitive Neurons",
+            link: "https://cloud.disrupt-x.io/global/core/market/main/anpr",
+            desc: [
+              "AI Based Solution For Convenient Entry And Exit From Parking Spaces Using Smart ANPR (Automated Number Plate Recognition).",
+            ],
+          },
+        ],
+      },
       {
         title: "Facilitrol-X",
         tipDesc: "",
@@ -157,158 +210,158 @@ export const experience: experienceType[] = [
       },
     ],
   },
-  {
-    scrImage: "/company/disruptx.jpeg",
-    title: "Disrupt-x",
-    desc: [
-      "Contributed to the development of a large-scale IoT project, collaborating with various IoT solutions and assisting in selecting the appropriate architecture for system orientation",
-      "Handled Google Maps integration and implemented all map-related functionalities, including tracking systems, geofencing, pullbacks, clustering, and performance optimization to efficiently manage large-scale map data",
-      "Developed reusable frontend components, created user experience graphics, and supported the organization of development resources for a modular approach to the project.",
-      "Worked alongside a team of six frontend developers and two designers, participating in all aspects of the application development process, including planning, requirements analysis, API design, UI/UX design, development, testing, and ongoing support",
-      "Designed and implemented a dynamic reporting system using Vue.js that allowed users to create and schedule PDF reports. The reports were customizable and included various visualization tools such as charts and graphs to help users gain valuable insights",
-      "Developed powerful analysis pages featuring D3 visualization tools, delivering critical insights to end-users",
-    ],
-    position: "Frontend Engineer",
-    date: `5/2021 - 4/2023 over ${getYearsSinceDate(
-      new Date("2021"),
-      new Date("2024")
-    )} years`,
-    linkProject: "",
-    location: "Dubai, United Arab Emirates",
-    titleDesc: "",
-    nestedProject: [
-      {
-        descNestedProject: "some of the new solutions a worked on:",
-        nestedProject: [
-          {
-            title: "Fleet Management",
-            link: "https://cloud.disrupt-x.io/global/core/market/main/fleet-management",
-            desc: [
-              "IoT Solution For Managing Your Fleet Through Real-Time Tracking, Route Optimization, Vehicle, And Driver Management, And Continuous Vehicle Health Monitoring.",
-            ],
-          },
-          {
-            title: "Metro Locks",
-            link: "https://cloud.disrupt-x.io/global/core/market/main/metro-watch",
-            desc: [
-              "IoT Solution For Securing Your Assets Efficiently. Metro Watch Solution Offers Smart Padlocks, Smart Parking And Tracking Solutions To Secure And Manage Your Assets Using An IoT Cloud Platform And Mobile App.",
-            ],
-          },
-          {
-            title: "Smart Parking",
-            link: "https://cloud.disrupt-x.io/global/core/market/main/urban-ai",
-            desc: [
-              "IoT solutions for efficiently managing parking spaces, tracking parking space utilizations and to prevent unauthorized accesses and overstays through optimized sensors and IoT platform .",
-            ],
-          },
-          {
-            title: "Facility Booking",
-            link: "https://cloud.disrupt-x.io/global/core/market/main/urban-ai",
-            desc: [
-              " IOT solution for efficiently managing building spaces, track spaces workload and unauthorized booking through optimized sensors and IoT platform",
-            ],
-          },
-          {
-            title: "Cloud Orbit",
-            link: "https://cloud.disrupt-x.io/global/core/market/main/rodent",
-            desc: [
-              "Believes In A Greener And Cleaner Environment. To Contribute To This, We Have Developed An End IoT Solution For Community Managers And Municipalities That Will Allow Them To Monitor Waste Fill Levels And Rodent Infestations.",
-            ],
-          },
-          {
-            title: "Cognitive Neurons",
-            link: "https://cloud.disrupt-x.io/global/core/market/main/anpr",
-            desc: [
-              "AI Based Solution For Convenient Entry And Exit From Parking Spaces Using Smart ANPR (Automated Number Plate Recognition).",
-            ],
-          },
-        ],
-        title: "Disrupt-x",
-        tipDesc: "",
-        desc: [],
-        linkProject: "https://disrupt-x.io/",
-        location: "",
-        descShort:
-          "Global IOT Solutions Platform is a UAE-based platform provider that is committed to leveraging the growth of technology and digitalization through the development of smart AI-based solutions that deliver",
-      },
-      {
-        title: "Cracking IoT Conference",
-        tipDesc: "",
-        desc: [],
-        linkProject: "https://www.crackingiot.com/chapter-3/",
-        location: "",
-        descShort:
-          "The Cracking IoT Conference, touted as the largest event of its kind in the Middle East and North Africa, took place in the UAE in collaboration with Intel Corporation. This prestigious gathering convened 300 C-Suite executives from various industries. Participants had the opportunity to glean insights from more than 40 global leaders in the IoT sphere through keynote addresses, panel discussions, and interactive workshops. The discussions encompassed a wide range of topics, including innovative IoT applications and security challenges",
-      },
-    ],
-    tools: [
-      {
-        srcImage: "/tech/react.svg",
-        title: "React",
-        disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
-        )} years`,
-      },
-      {
-        srcImage: "/tech/next.svg",
-        classImage:
-          "backdrop-opacity-[0.8] backdrop-invert-[0.8] backdrop-saturate-0 hover:backdrop-invert-0 rounded-full",
-        title: "Next",
-        disc: `In use since: 2022, over ${getYearsSinceDate(
-          new Date("2022")
-        )} years`,
-      },
-      {
-        srcImage: "/tech/tailwind.svg",
-        title: "Tailwind css",
-        disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
-        )} years`,
-      },
-      {
-        srcImage: "/tech/vue.svg",
-        title: "Vue",
-        disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
-        )} years`,
-      },
-      {
-        srcImage: "/tech/quasar.png",
-        title: "Quasar",
-        disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
-        )} years`,
-      },
-      {
-        srcImage: "/tech/google-map.svg",
-        title: "Google Map",
-        disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
-        )} years`,
-      },
-      {
-        srcImage: "/tech/zenchart.jpeg",
-        title: "zing Chart",
-        disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
-        )} years`,
-      },
-      {
-        srcImage: "/tech/saas.svg",
-        title: "Saas",
-        disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
-        )} years`,
-      },
-      {
-        srcImage: "/tech/azure.svg",
-        title: "Azure",
-        disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
-        )} years`,
-      },
-    ],
-  },
+  // {
+  //   scrImage: "/company/disruptx.jpeg",
+  //   title: "Disrupt-x",
+  //   desc: [
+  //     "Contributed to the development of a large-scale IoT project, collaborating with various IoT solutions and assisting in selecting the appropriate architecture for system orientation",
+  //     "Handled Google Maps integration and implemented all map-related functionalities, including tracking systems, geofencing, pullbacks, clustering, and performance optimization to efficiently manage large-scale map data",
+  //     "Developed reusable frontend components, created user experience graphics, and supported the organization of development resources for a modular approach to the project.",
+  //     "Worked alongside a team of six frontend developers and two designers, participating in all aspects of the application development process, including planning, requirements analysis, API design, UI/UX design, development, testing, and ongoing support",
+  //     "Designed and implemented a dynamic reporting system using Vue.js that allowed users to create and schedule PDF reports. The reports were customizable and included various visualization tools such as charts and graphs to help users gain valuable insights",
+  //     "Developed powerful analysis pages featuring D3 visualization tools, delivering critical insights to end-users",
+  //   ],
+  //   position: "Frontend Engineer",
+  //   date: `5/2021 - 4/2023 over ${getYearsSinceDate(
+  //     new Date("2021"),
+  //     new Date("2024")
+  //   )} years`,
+  //   linkProject: "",
+  //   location: "Dubai, United Arab Emirates",
+  //   titleDesc: "",
+  //   nestedProject: [
+  //     {
+  //       descNestedProject: "some of the new solutions a worked on:",
+  //       nestedProject: [
+  //         {
+  //           title: "Fleet Management",
+  //           link: "https://cloud.disrupt-x.io/global/core/market/main/fleet-management",
+  //           desc: [
+  //             "IoT Solution For Managing Your Fleet Through Real-Time Tracking, Route Optimization, Vehicle, And Driver Management, And Continuous Vehicle Health Monitoring.",
+  //           ],
+  //         },
+  //         {
+  //           title: "Metro Locks",
+  //           link: "https://cloud.disrupt-x.io/global/core/market/main/metro-watch",
+  //           desc: [
+  //             "IoT Solution For Securing Your Assets Efficiently. Metro Watch Solution Offers Smart Padlocks, Smart Parking And Tracking Solutions To Secure And Manage Your Assets Using An IoT Cloud Platform And Mobile App.",
+  //           ],
+  //         },
+  //         {
+  //           title: "Smart Parking",
+  //           link: "https://cloud.disrupt-x.io/global/core/market/main/urban-ai",
+  //           desc: [
+  //             "IoT solutions for efficiently managing parking spaces, tracking parking space utilizations and to prevent unauthorized accesses and overstays through optimized sensors and IoT platform .",
+  //           ],
+  //         },
+  //         {
+  //           title: "Facility Booking",
+  //           link: "https://cloud.disrupt-x.io/global/core/market/main/urban-ai",
+  //           desc: [
+  //             " IOT solution for efficiently managing building spaces, track spaces workload and unauthorized booking through optimized sensors and IoT platform",
+  //           ],
+  //         },
+  //         {
+  //           title: "Cloud Orbit",
+  //           link: "https://cloud.disrupt-x.io/global/core/market/main/rodent",
+  //           desc: [
+  //             "Believes In A Greener And Cleaner Environment. To Contribute To This, We Have Developed An End IoT Solution For Community Managers And Municipalities That Will Allow Them To Monitor Waste Fill Levels And Rodent Infestations.",
+  //           ],
+  //         },
+  //         {
+  //           title: "Cognitive Neurons",
+  //           link: "https://cloud.disrupt-x.io/global/core/market/main/anpr",
+  //           desc: [
+  //             "AI Based Solution For Convenient Entry And Exit From Parking Spaces Using Smart ANPR (Automated Number Plate Recognition).",
+  //           ],
+  //         },
+  //       ],
+  //       title: "Disrupt-x",
+  //       tipDesc: "",
+  //       desc: [],
+  //       linkProject: "https://disrupt-x.io/",
+  //       location: "",
+  //       descShort:
+  //         "Global IOT Solutions Platform is a UAE-based platform provider that is committed to leveraging the growth of technology and digitalization through the development of smart AI-based solutions that deliver",
+  //     },
+  //     {
+  //       title: "Cracking IoT Conference",
+  //       tipDesc: "",
+  //       desc: [],
+  //       linkProject: "https://www.crackingiot.com/chapter-3/",
+  //       location: "",
+  //       descShort:
+  //         "The Cracking IoT Conference, touted as the largest event of its kind in the Middle East and North Africa, took place in the UAE in collaboration with Intel Corporation. This prestigious gathering convened 300 C-Suite executives from various industries. Participants had the opportunity to glean insights from more than 40 global leaders in the IoT sphere through keynote addresses, panel discussions, and interactive workshops. The discussions encompassed a wide range of topics, including innovative IoT applications and security challenges",
+  //     },
+  //   ],
+  //   tools: [
+  //     {
+  //       srcImage: "/tech/react.svg",
+  //       title: "React",
+  //       disc: `In use since: 2021, over ${getYearsSinceDate(
+  //         new Date("2021")
+  //       )} years`,
+  //     },
+  //     {
+  //       srcImage: "/tech/next.svg",
+  //       classImage:
+  //         "backdrop-opacity-[0.8] backdrop-invert-[0.8] backdrop-saturate-0 hover:backdrop-invert-0 rounded-full",
+  //       title: "Next",
+  //       disc: `In use since: 2022, over ${getYearsSinceDate(
+  //         new Date("2022")
+  //       )} years`,
+  //     },
+  //     {
+  //       srcImage: "/tech/tailwind.svg",
+  //       title: "Tailwind css",
+  //       disc: `In use since: 2021, over ${getYearsSinceDate(
+  //         new Date("2021")
+  //       )} years`,
+  //     },
+  //     {
+  //       srcImage: "/tech/vue.svg",
+  //       title: "Vue",
+  //       disc: `In use since: 2021, over ${getYearsSinceDate(
+  //         new Date("2021")
+  //       )} years`,
+  //     },
+  //     {
+  //       srcImage: "/tech/quasar.png",
+  //       title: "Quasar",
+  //       disc: `In use since: 2021, over ${getYearsSinceDate(
+  //         new Date("2021")
+  //       )} years`,
+  //     },
+  //     {
+  //       srcImage: "/tech/google-map.svg",
+  //       title: "Google Map",
+  //       disc: `In use since: 2021, over ${getYearsSinceDate(
+  //         new Date("2021")
+  //       )} years`,
+  //     },
+  //     {
+  //       srcImage: "/tech/zenchart.jpeg",
+  //       title: "zing Chart",
+  //       disc: `In use since: 2021, over ${getYearsSinceDate(
+  //         new Date("2021")
+  //       )} years`,
+  //     },
+  //     {
+  //       srcImage: "/tech/saas.svg",
+  //       title: "Saas",
+  //       disc: `In use since: 2021, over ${getYearsSinceDate(
+  //         new Date("2021")
+  //       )} years`,
+  //     },
+  //     {
+  //       srcImage: "/tech/azure.svg",
+  //       title: "Azure",
+  //       disc: `In use since: 2021, over ${getYearsSinceDate(
+  //         new Date("2021")
+  //       )} years`,
+  //     },
+  //   ],
+  // },
   {
     scrImage: "/company/freelace.png",
     date: `1/2020 - 4/2021 over ${getYearsSinceDate(
