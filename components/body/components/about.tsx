@@ -9,8 +9,8 @@ const About = () => {
         <div className="text-md">
           <p>
             Hi! 👋 <br />
-            I'm Mahmod, {getYearsSinceDate(new Date("1998/1/25"))}, and a Senior
-            Full-Stack Developer specializing in Vue, React, Node.js, and
+            I&#180;m Mahmod, {getYearsSinceDate(new Date("1998/1/25"))}, and a
+            Senior Full-Stack Developer specializing in Vue, React, Node.js, and
             TypeScript. With over {getYearsSinceDate(new Date("2020/1/1"))}{" "}
             years of professional experience, I build scalable, high-performance
             web applications that solve real business problems and deliver
