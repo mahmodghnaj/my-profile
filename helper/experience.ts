@@ -33,20 +33,31 @@ interface experienceType {
 }
 export const experience: experienceType[] = [
   {
-    scrImage: "/company/unifi-solutions.jpeg",
+    scrImage: "/company/ntigra.png",
     title: "Ntigra AI Applications and Services",
     desc: [
-      "Development and optimization of 3+ AI-powered Chrome extensions, significantly improving performance and user experience.",
-      "Contributed to architecting a new structure for Chrome extensions using React, Tailwind CSS, and TypeScript, enhancing maintainability and scalability.",
-      "Worked on AI-driven applications, addressing challenges related to large-scale data processing and real-time data handling.",
-      "Focused on improving UI/UX design, ensuring seamless user interaction and high-performance front-end solutions.",
-      "Applied Domain-Driven Design (DDD) principles to create modular, scalable, and maintainable front-end architectures, improving code organization and business logic separation.",
-      "Utilized Design Factory patterns to streamline component reuse and scalability, enabling efficient UI development and maintaining a consistent design system.",
+      "Architected and developed 4+ large-scale AI-powered web applications for medical systems using React, Next.js, TypeScript, and Node.js, delivering high-performance and scalable solutions.",
+
+      "Led front-end development of a comprehensive hospital management platform serving multiple hospitals, covering doctors, nurses, patients, appointments, medical records, billing, and operational workflows.",
+
+      "Implemented AI automation for two legacy systems by integrating modern AI capabilities, significantly improving processing speed, operational efficiency, and user productivity.",
+
+      "Designed and established a robust and scalable application architecture focused on maintainability, modularity, and long-term growth using clean architecture and Domain-Driven Design (DDD) principles.",
+
+      "Developed and maintained Node.js and MongoDB services for authentication, authorization, AI integrations, and conversation history management.",
+
+      "Built and contributed to Micro Frontend architectures, enabling independent development, deployment, and scaling of complex enterprise applications.",
+
+      "Applied design patterns and reusable component strategies to create consistent, maintainable, and scalable user interfaces.",
+
+      "Implemented end-to-end testing using Playwright to ensure application reliability, regression prevention, and high-quality releases.",
+
+      "Optimized UI/UX and application performance to deliver seamless user experiences across large-scale, data-intensive platforms.",
     ],
     position: "Senior Frontend Developer",
     date: `9/2024 - Present over ${getYearsSinceDate(
       new Date("2024"),
-      new Date("2025")
+      new Date("2025"),
     )} years`,
     nestedProject: [],
     location: "Dubai, United Arab Emirates",
@@ -54,17 +65,54 @@ export const experience: experienceType[] = [
     titleDesc: "",
     tools: [
       {
+        srcImage: "/tech/typescript.svg",
+        title: "TypeScript",
+        disc: `In use since: 2020, over ${getYearsSinceDate(
+          new Date("2020"),
+        )} years`,
+      },
+      {
         srcImage: "/tech/react.svg",
         title: "React",
         disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
+          new Date("2021"),
+        )} years`,
+      },
+      {
+        srcImage: "/tech/next.svg",
+        classImage:
+          "backdrop-opacity-[0.8] backdrop-invert-[0.8] backdrop-saturate-0 hover:backdrop-invert-0 rounded-full",
+        title: "Next",
+        disc: `In use since: 2022, over ${getYearsSinceDate(
+          new Date("2022"),
         )} years`,
       },
       {
         srcImage: "/tech/tailwind.svg",
         title: "Tailwind css",
         disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
+          new Date("2021"),
+        )} years`,
+      },
+      {
+        srcImage: "/tech/node.svg",
+        title: "Node js",
+        disc: `In use since: 2020, over ${getYearsSinceDate(
+          new Date("2020"),
+        )} years`,
+      },
+      {
+        srcImage: "/tech/mongodb.svg",
+        title: "Mongo",
+        disc: `In use since: 2020, over ${getYearsSinceDate(
+          new Date("2020"),
+        )} years`,
+      },
+      {
+        srcImage: "/tech/avatar.png",
+        title: "playwright",
+        disc: `In use since: 2026, over ${getYearsSinceDate(
+          new Date("2026"),
         )} years`,
       },
     ],
@@ -149,7 +197,7 @@ export const experience: experienceType[] = [
         srcImage: "/tech/react.svg",
         title: "React",
         disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
+          new Date("2021"),
         )} years`,
       },
       {
@@ -158,35 +206,35 @@ export const experience: experienceType[] = [
           "backdrop-opacity-[0.8] backdrop-invert-[0.8] backdrop-saturate-0 hover:backdrop-invert-0 rounded-full",
         title: "Next",
         disc: `In use since: 2022, over ${getYearsSinceDate(
-          new Date("2022")
+          new Date("2022"),
         )} years`,
       },
       {
         srcImage: "/tech/tailwind.svg",
         title: "Tailwind css",
         disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
+          new Date("2021"),
         )} years`,
       },
       {
         srcImage: "/tech/google-map.svg",
         title: "Google Map",
         disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
+          new Date("2021"),
         )} years`,
       },
       {
         srcImage: "/tech/saas.svg",
         title: "Saas",
         disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
+          new Date("2021"),
         )} years`,
       },
       {
         srcImage: "/tech/azure.svg",
         title: "Azure",
         disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
+          new Date("2021"),
         )} years`,
       },
     ],
@@ -205,7 +253,7 @@ export const experience: experienceType[] = [
     position: "Frontend Engineer",
     date: `5/2021 - 4/2023 over ${getYearsSinceDate(
       new Date("2021"),
-      new Date("2024")
+      new Date("2024"),
     )} years`,
     linkProject: "",
     location: "Dubai, United Arab Emirates",
@@ -280,7 +328,7 @@ export const experience: experienceType[] = [
         srcImage: "/tech/react.svg",
         title: "React",
         disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
+          new Date("2021"),
         )} years`,
       },
       {
@@ -289,56 +337,56 @@ export const experience: experienceType[] = [
           "backdrop-opacity-[0.8] backdrop-invert-[0.8] backdrop-saturate-0 hover:backdrop-invert-0 rounded-full",
         title: "Next",
         disc: `In use since: 2022, over ${getYearsSinceDate(
-          new Date("2022")
+          new Date("2022"),
         )} years`,
       },
       {
         srcImage: "/tech/tailwind.svg",
         title: "Tailwind css",
         disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
+          new Date("2021"),
         )} years`,
       },
       {
         srcImage: "/tech/vue.svg",
         title: "Vue",
         disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
+          new Date("2021"),
         )} years`,
       },
       {
         srcImage: "/tech/quasar.png",
         title: "Quasar",
         disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
+          new Date("2021"),
         )} years`,
       },
       {
         srcImage: "/tech/google-map.svg",
         title: "Google Map",
         disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
+          new Date("2021"),
         )} years`,
       },
       {
         srcImage: "/tech/zenchart.jpeg",
         title: "zing Chart",
         disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
+          new Date("2021"),
         )} years`,
       },
       {
         srcImage: "/tech/saas.svg",
         title: "Saas",
         disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
+          new Date("2021"),
         )} years`,
       },
       {
         srcImage: "/tech/azure.svg",
         title: "Azure",
         disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
+          new Date("2021"),
         )} years`,
       },
     ],
@@ -347,7 +395,7 @@ export const experience: experienceType[] = [
     scrImage: "/company/freelace.png",
     date: `1/2020 - 4/2021 over ${getYearsSinceDate(
       new Date("2020"),
-      new Date("2021")
+      new Date("2021"),
     )} years`,
     title: "Freelance",
     linkProject: "",
@@ -388,14 +436,14 @@ export const experience: experienceType[] = [
         srcImage: "/tech/typescript.svg",
         title: "TypeScript",
         disc: `In use since: 2020, over ${getYearsSinceDate(
-          new Date("2020")
+          new Date("2020"),
         )} years`,
       },
       {
         srcImage: "/tech/react.svg",
         title: "React",
         disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
+          new Date("2021"),
         )} years`,
       },
       {
@@ -404,63 +452,63 @@ export const experience: experienceType[] = [
           "backdrop-opacity-[0.8] backdrop-invert-[0.8] backdrop-saturate-0 hover:backdrop-invert-0 rounded-full",
         title: "Next",
         disc: `In use since: 2022, over ${getYearsSinceDate(
-          new Date("2022")
+          new Date("2022"),
         )} years`,
       },
       {
         srcImage: "/tech/vue.svg",
         title: "Vue",
         disc: `In use since: 2020, over ${getYearsSinceDate(
-          new Date("2020")
+          new Date("2020"),
         )} years`,
       },
       {
         srcImage: "/tech/tailwind.svg",
         title: "Tailwind",
         disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
+          new Date("2021"),
         )} years`,
       },
       {
         srcImage: "/tech/node.svg",
         title: "Node js",
         disc: `In use since: 2020, over ${getYearsSinceDate(
-          new Date("2020")
+          new Date("2020"),
         )} years`,
       },
       {
         srcImage: "/tech/nest.svg",
         title: "Nest js",
         disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021")
+          new Date("2021"),
         )} years`,
       },
       {
         srcImage: "/tech/laravel.svg",
         title: "Laravel",
         disc: `In use since: 2020, over ${getYearsSinceDate(
-          new Date("2020")
+          new Date("2020"),
         )} years`,
       },
       {
         srcImage: "/tech/mongodb.svg",
         title: "Mongo",
         disc: `In use since: 2020, over ${getYearsSinceDate(
-          new Date("2020")
+          new Date("2020"),
         )} years`,
       },
       {
         srcImage: "/tech/mysql.svg",
         title: " mySql",
         disc: `In use since: 2020, over ${getYearsSinceDate(
-          new Date("2020")
+          new Date("2020"),
         )} years`,
       },
       {
         srcImage: "/tech/gitlab.svg",
         title: "Gitlab",
         disc: `In use since: 2020, over ${getYearsSinceDate(
-          new Date("2020")
+          new Date("2020"),
         )} years`,
       },
     ],

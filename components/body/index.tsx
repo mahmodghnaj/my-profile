@@ -15,13 +15,14 @@ const Body = () => {
         <div className="block rounded-full w-56 h-56 sm:w-56 mx-auto transform overflow-hidden mb-8 relative">
           <Image
             priority
-            src="/me.jpeg"
-            className="absolute inset-0 rounded-full"
+            src="/me.jpg"
+            className="absolute inset-0 rounded-full ml-1"
             alt="Mahmod Ghnaj"
             fill
             sizes="(max-width: 768px) 100vw,
             (max-width: 1200px) 50vw,
             33vw"
+            style={{ top: "-2px" }}
           />
         </div>
         <InfoPersonal />
