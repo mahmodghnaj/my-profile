@@ -250,7 +250,7 @@ export const experience: experienceType[] = [
       "Designed and implemented a dynamic reporting system using Vue.js that allowed users to create and schedule PDF reports. The reports were customizable and included various visualization tools such as charts and graphs to help users gain valuable insights",
       "Developed powerful analysis pages featuring D3 visualization tools, delivering critical insights to end-users",
     ],
-    position: "Frontend Engineer",
+    position: "FullStack Engineer",
     date: `5/2021 - 4/2023 over ${getYearsSinceDate(
       new Date("2021"),
       new Date("2024"),
@@ -341,6 +341,27 @@ export const experience: experienceType[] = [
         )} years`,
       },
       {
+        srcImage: "/tech/node.svg",
+        title: "Node js",
+        disc: `In use since: 2020, over ${getYearsSinceDate(
+          new Date("2020"),
+        )} years`,
+      },
+      {
+        srcImage: "/tech/nest.svg",
+        title: "Nest js",
+        disc: `In use since: 2021, over ${getYearsSinceDate(
+          new Date("2021"),
+        )} years`,
+      },
+      {
+        srcImage: "/tech/mongodb.svg",
+        title: "Mongo",
+        disc: `In use since: 2020, over ${getYearsSinceDate(
+          new Date("2020"),
+        )} years`,
+      },
+      {
         srcImage: "/tech/tailwind.svg",
         title: "Tailwind css",
         disc: `In use since: 2021, over ${getYearsSinceDate(
@@ -382,13 +403,13 @@ export const experience: experienceType[] = [
           new Date("2021"),
         )} years`,
       },
-      {
-        srcImage: "/tech/azure.svg",
-        title: "Azure",
-        disc: `In use since: 2021, over ${getYearsSinceDate(
-          new Date("2021"),
-        )} years`,
-      },
+      // {
+      //   srcImage: "/tech/azure.svg",
+      //   title: "Azure",
+      //   disc: `In use since: 2021, over ${getYearsSinceDate(
+      //     new Date("2021"),
+      //   )} years`,
+      // },
     ],
   },
   {

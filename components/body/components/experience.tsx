@@ -39,8 +39,8 @@ const Experience = () => {
                         className="mix-blend-multiply max-w-[120px] max-h-[80px] dark:hidden"
                         alt={item.title}
                         loading="lazy"
-                        width={120}
-                        height={80}
+                        width={200}
+                        height={200}
                       />
                     </div>
                     <div className="-ml-[20px] md:ml-0 ">
